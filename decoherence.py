@@ -15,6 +15,11 @@ fileConfig('logger.ini')
 logger = logging.getLogger()
 logger.setLevel(logging.DEBUG)
 
+"""
+More info at 
+http://qutip.org/docs/4.1/guide/dynamics/dynamics-bloch-redfield.html?highlight=bloch%20equation#equation-br-tensor
+"""
+
 logger.info("It's show time")
 
 delta = 0.2 * 2*np.pi
